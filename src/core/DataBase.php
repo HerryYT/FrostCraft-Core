@@ -278,7 +278,7 @@ if($player->isOp()){
 public function succes(Player $player){
     $player->sendMessage("§7[ §9Auth §7] §aTe has logueado correctamente!");
 $player->setTitle("§3NextCraft","§aBedrock Edition",4);
-  Boss::sendBoss($player,999,"§l§3NextCraft §bGames");
+  Boss::sendBoss($player,999,"§l§3FrostCraft §bGames");
   Boss::setVida(100,999);
   $pk = new LevelSoundEventPacket();
        $pk->x = $player->x;
