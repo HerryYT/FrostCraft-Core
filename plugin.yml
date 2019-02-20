@@ -1,1 +1,15 @@
 
+name: FrosCraft
+main: core\DataBase
+api: 3.0.0
+version: 1.0
+author: Josewowgame 
+commands:
+ register:
+  description: Register Usser
+ login:
+  description: Login Usser
+ setrank:
+  description: Staff Command
+ edit:
+  description: Staff Command
