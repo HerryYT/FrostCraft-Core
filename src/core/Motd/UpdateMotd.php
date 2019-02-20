@@ -15,7 +15,7 @@ public function __construct(DataBase $base){
 }
 public function onRun($currentTick){
   if($this->time>0){$this->time--;}
-  $prefix = "NextCraft : ";
+  $prefix = "FrostCraft : ";
   $names = array("SkyWars","MobEvolution","Msg3","msg4");
   if($this->time == 0){
     $this->base->getServer()->getNetwork()->setName($prefix.$names[array_rand($names)]);
